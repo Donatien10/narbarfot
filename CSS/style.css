@@ -1,0 +1,39 @@
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+nav .barre{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+.barre li{
+    list-style: none;
+}
+.barre li a{
+    position: relative;
+    text-decoration: none;
+    padding: 20px;
+
+}
+.barre li a:hover{
+    background-color: blue;
+}
+nav button{
+    position: relative;
+    right: 5px;
+    top: -30px;
+    background-color: yellow;
+}
+nav input{
+    position: relative;
+    top: -30px;
+}
+.pannier a img{
+    position: relative;
+    width: 30px;
+    left: 350px;
+    top: -80px;
+    padding: 20px;
+}

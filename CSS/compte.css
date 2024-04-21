@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px;
+    border-radius: 28px;
+    box-shadow: 25px 21px 3px 2px black;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+hr{
+    margin: 10px;
+    background-color: rgba(2, 2, 14, 0.911);
+    border: 0px;
+    height: 5px;
+    width: 100%;
+}
+.laGrande{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.action label{
+    padding: 1 0px;
+}
+.action input{
+    margin-bottom: 10px;
+}
