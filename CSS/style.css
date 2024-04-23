@@ -16,6 +16,8 @@ nav .barre{
     position: relative;
     text-decoration: none;
     padding: 20px;
+    color: white;
+    font-size: 20px;
 
 }
 .barre li a:hover{
@@ -25,7 +27,8 @@ nav button{
     position: relative;
     right: 5px;
     top: -30px;
-    background-color: yellow;
+    background-color: black;
+    color: white;
 }
 nav input{
     position: relative;
@@ -51,6 +54,102 @@ nav input{
     animation-name: mesImages;
     animation-iteration-count: infinite;
 }
+@keyframes mesImages{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-640px);
+    }
+    50%{
+        transform: translateX(-1280px);
+    }
+    75%{
+        transform: translateX(-1920);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.menusier{
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+    top: 100px;
+    border-radius: 30px;
+}
+.menusier img{
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 30px;
+    border-radius: 30px;
+   
+}
+.tailleur img{
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+    left: 25%;
+    top: -398px;
+    display: inline-block;
+    border-radius: 30px;
+   
+}
+.coiffeur img{
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+    left: 50%;
+    top: -906px;
+    display: inline-block;
+    border-radius: 30px;
+}
+.tisserand img{
+    width: 300px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+    left: 75%;
+    top: -1410px;
+    display: inline-block;
+    border-radius: 30px;
+   
+}
+.barreDeRecherche{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    position: relative;
+    top: -1450px;
+}
+.barreDeRecherche h1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    top: 50px;
+    font-size: 50px;
+}
+.barreDeRecherche{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+    top: -1400px;
+}
+h1{
+    display: flex;
+    animation-duration: 8s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+}
+
 @keyframes mesImages{
     0%{
         transform: translateX(0);
