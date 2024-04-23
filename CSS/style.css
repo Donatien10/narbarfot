@@ -167,3 +167,37 @@ h1{
         transform: translateX(0);
     }
 }
+.tout1{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+    top: -1399px;
+}
+.tout1 img{
+    width: 400px;
+    height: 500px;
+}
+.tout1{
+    display: flex;
+    animation-duration: 10s;
+    animation-name: mesIm;
+    animation-iteration-count: infinite;
+}
+@keyframes mesIm{
+    0%{
+     transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-640px);
+       }
+       50%{
+        transform: translateX(-1280px);
+       }
+       75%{
+        transform: translateX(0px);
+       }
+       100%{
+        transform: translateX(0px);
+       }
+}
