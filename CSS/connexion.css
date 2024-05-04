@@ -1,0 +1,50 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: red;
+  
+  }
+  form{
+  
+      width: 310px;
+      height: 400px;
+      background-color: white;
+      border-radius: 30px;
+  }
+  h1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .connexion input{
+      margin-bottom: 30px; 
+      width: 300px;
+  }
+  button{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      top:5px;
+      left: 100px;
+  }
+  h5 {
+      position: relative;
+      left:150px;
+      top: -40px;
+      color: red;
+  }
+   form a{
+      text-decoration: none;
+      list-style: none;
+  }
+  .im img{
+      position: relative;
+      width: 30px;
+      height: 30px;
+      margin-bottom: 20px;
+      left: 100px;
+  
+  }
